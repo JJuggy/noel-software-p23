@@ -16,7 +16,7 @@ export default function ComingSoon({ title }: { title: string }) {
         </div>
         <h2 className="text-[#0B1727] text-[28px] font-bold">{title}</h2>
         <p className="text-[#0B1727]/50 text-[15px] max-w-[300px]">
-          This section is coming soon. Drop back once the next Figma screens are ready.
+          This section is coming soon. 
         </p>
         <motion.div
           className="h-[3px] w-[60px] rounded-full bg-[#27E6A7]"
