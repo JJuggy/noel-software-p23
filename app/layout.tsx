@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "NOEL — Alert App",
+  title: "NOEL — P23 App",
   description: "P23 Africa business intelligence and alert platform",
 };
 
