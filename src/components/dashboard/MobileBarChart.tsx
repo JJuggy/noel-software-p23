@@ -34,9 +34,9 @@ export default function MobileBarChart() {
 
         {/* Teal background wave — flipped vertically & rotated 180° */}
         <div className="-translate-x-1/2 absolute flex items-center justify-center left-1/2 top-0"
-          style={{ width: "399px", height: "241px" }}>
+          style={{ width: "min(399px, 100vw)", height: "241px" }}>
           <div className="-scale-y-100 flex-none rotate-180">
-            <div className="relative" style={{ width: "399px", height: "241px" }}>
+            <div className="relative" style={{ width: "min(399px, 100vw)", height: "241px" }}>
               <div className="absolute inset-[-1.45%_-1.13%_-2.28%_-1.13%]">
                 <img alt="" className="block max-w-none size-full" src={imgVector7} />
               </div>

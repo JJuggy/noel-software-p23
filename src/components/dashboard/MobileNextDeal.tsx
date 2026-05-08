@@ -51,7 +51,7 @@ export default function MobileNextDeal() {
         // Figma left is centred (calc 50% - 0.5px) inside 440px screen → margin ~8px each side
         className="relative mx-[8px] rounded-[20px] overflow-hidden"
         style={{
-          width: "424px",
+          width: "min(424px, calc(100vw - 16px))",
           height: "291px",
           background: "#0b1727",
           boxShadow: "0px 4px 7px 3px rgba(0,0,0,0.15), 0px 1px 2px 0px rgba(0,0,0,0.3)",
