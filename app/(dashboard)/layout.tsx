@@ -1,4 +1,5 @@
 import Sidebar from "@/components/layout/Sidebar";
+import MobileBottomNav from "@/components/layout/MobileBottomNav";
 
 export default function DashboardLayout({
   children,
@@ -7,10 +8,17 @@ export default function DashboardLayout({
 }) {
   return (
     <div className="flex h-full min-h-screen bg-brn-navy">
-      <Sidebar />
-      <main className="flex-1 -ml-2 overflow-y-auto">
+      {/* Sidebar — hidden on mobile */}
+      <div className="hidden md:block">
+        <Sidebar />
+      </div>
+
+      <main className="flex-1 md:-ml-2 overflow-y-auto">
         {children}
       </main>
+
+      {/* Bottom nav — mobile only */}
+      <MobileBottomNav />
     </div>
   );
 }
