@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1000002024">
+<circle id="Ellipse 268" cx="50" cy="50" r="50" fill="var(--fill-0, #C992C9)"/>
+<g id="building-03">
+<rect width="60" height="60" transform="translate(20 20)" fill="#C992C9"/>
+<path id="Vector" d="M60 45L65.3735 46.612C68.8065 47.642 70.523 48.157 71.5115 49.4855C72.5 50.814 72.5 52.6062 72.5 56.1902V75" stroke="var(--stroke-0, #F3F4F6)" stroke-width="3.5" stroke-linejoin="round"/>
+<path id="Vector_2" d="M40 42.5H47.5M40 52.5H47.5" stroke="var(--stroke-0, #F3F4F6)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M50 75V67.5C50 65.143 50 63.9645 49.2677 63.2322C48.5355 62.5 47.357 62.5 45 62.5H42.5C40.143 62.5 38.9645 62.5 38.2322 63.2322C37.5 63.9645 37.5 65.143 37.5 67.5V75" stroke="var(--stroke-0, #F3F4F6)" stroke-width="3.5" stroke-linejoin="round"/>
+<path id="Vector_4" d="M25 75H75" stroke="var(--stroke-0, #F3F4F6)" stroke-width="3.5" stroke-linecap="round"/>
+<path id="Vector_5" d="M27.5 75V36.7931C27.5 30.5162 27.5 27.3778 29.4779 25.8206C31.4559 24.2634 34.3685 25.1089 40.1938 26.7997L52.6937 30.428C56.209 31.4484 57.9667 31.9586 58.9832 33.3491C60 34.7397 60 36.6336 60 40.4214V75" stroke="var(--stroke-0, #F3F4F6)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>
