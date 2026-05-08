@@ -64,7 +64,7 @@ export default function DashboardPage() {
       <div className="md:hidden flex flex-col min-h-screen bg-[#f3f4f6]">
         <MobileHeader />
 
-        <div className="flex flex-col gap-4 pt-5 pb-28">
+        <div className="flex flex-col gap-4 pt-5 pb-[220px]">
           <MobileNetworkStats />
           <MobileBarChart />
           <MobileNextDeal />

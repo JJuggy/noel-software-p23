@@ -31,7 +31,7 @@ export default function LoadingPage() {
   }, [router]);
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden bg-white flex items-center justify-center">
+    <div className="relative w-full h-screen overflow-hidden bg-white flex items-center justify-center">
       {/* Background texture */}
       <div
         className="absolute inset-0 pointer-events-none"

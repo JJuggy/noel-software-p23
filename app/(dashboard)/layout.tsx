@@ -18,7 +18,9 @@ export default function DashboardLayout({
       </main>
 
       {/* Bottom nav — mobile only */}
-      <MobileBottomNav />
+      <div className="md:hidden">
+        <MobileBottomNav />
+      </div>
     </div>
   );
 }

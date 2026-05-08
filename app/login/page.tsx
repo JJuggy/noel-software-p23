@@ -19,7 +19,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="relative w-screen min-h-screen overflow-x-hidden bg-white">
+    <div className="relative w-full min-h-screen overflow-x-hidden bg-white">
       {/* Background texture */}
       <div
         className="absolute inset-0 pointer-events-none"

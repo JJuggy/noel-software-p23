@@ -63,7 +63,7 @@ export default function SignupStep3Page() {
   }
 
   return (
-    <div className="relative w-screen min-h-screen overflow-x-hidden bg-white">
+    <div className="relative w-full min-h-screen overflow-x-hidden bg-white">
       {/* Background texture */}
       <div className="absolute inset-0 pointer-events-none"
         style={{ backgroundImage: `url('${imgTexture}')`, backgroundSize: "1024px 1024px", opacity: 0.12 }} />
