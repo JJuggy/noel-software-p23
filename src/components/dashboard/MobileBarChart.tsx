@@ -238,7 +238,7 @@ export default function MobileBarChart() {
 
       {/* ── Tab switcher ── */}
       <div className="relative flex items-center mt-4 rounded-[20px]"
-        style={{ background: "#f1eeee", border: "0.5px solid #f9f9f9", height: "37px" }}>
+        style={{ background: "#f1eeee", border: "0.5px solid #f9f9f9", height: "37px", boxShadow: "0px 4px 6px -1px rgba(0,0,0,0.15)" }}>
         {/* Sliding active pill */}
         <div
           className="absolute rounded-[20px] transition-all duration-300"
