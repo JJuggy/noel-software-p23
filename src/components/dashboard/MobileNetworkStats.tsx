@@ -22,6 +22,7 @@ export default function MobileNetworkStats() {
       >
         Network Stats
       </p>
+<div className="flex items-center justify-between">
 
       <div className="flex items-center justify-between px-[30px] py-[6px] bg-[#f9f9f9] border-[1.5px] border-[#0b1727] border-solid rounded-[50px] drop-shadow-[0px_1px_1px_rgba(0,0,0,0.15)]">
         {/* Leads */}
@@ -60,6 +61,7 @@ export default function MobileNetworkStats() {
         </div>
 
         {/* Avatars + Active Members */}
+      </div>
         <div className="flex flex-col items-center gap-2 w-[94px]">
           {/* Overlapping avatars */}
           <div className="relative inline-grid grid-cols-[max-content] grid-rows-[max-content] mb-[-7px]">
@@ -80,7 +82,7 @@ export default function MobileNetworkStats() {
             </span>
           </div>
         </div>
-      </div>
+</div>
     </motion.div>
   );
 }

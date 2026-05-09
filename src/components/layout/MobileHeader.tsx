@@ -22,8 +22,8 @@ export default function MobileHeader() {
         {/* Greeting */}
         <div className="flex flex-col items-start flex-1 min-w-0 text-[#f3f0e9]">
           <p
-            className="font-extrabold leading-[1.2] text-[24px] w-full"
-            style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 800 }}
+            className=" font-extrabold leading-[1.2] text-[24px] w-full"
+            style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 900 }}
           >
             Hello, Kwame!
           </p>
